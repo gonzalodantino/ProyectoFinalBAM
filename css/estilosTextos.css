@@ -1,0 +1,61 @@
+h3{
+	color: rgb(14, 82, 14);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+	color: rgb(14, 82, 14);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+	color:black
+}
+
+.imagen {
+	
+	background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/infobae/65PZLXBBVVDCBKP7I5ZBF5RJD4.jpg");
+	;
+}
+
+.imagenB {
+	background-image: url('https://cloudfront-us-east-1.images.arcpublishing.com/infobae/65PZLXBBVVDCBKP7I5ZBF5RJD4.jpg');
+	
+	
+	background-repeat: repeat;
+	
+	background-size: cover;
+}
+
+.textos{
+	margin: 50px;
+	color:rgb(255, 255, 255)
+}
+
+.textosParaFondoBlanco{
+	color:black
+}
+
+.imagenC {
+	background-image: url('../images/Helechos.jpg');
+	background-position: center;
+	margin: 50px;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.body {
+    background-image: url('bg-image-small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.centrarElementos{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

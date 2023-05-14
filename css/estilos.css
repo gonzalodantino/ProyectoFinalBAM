@@ -1,0 +1,159 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+/* 
+.holder {
+    width: 960px;
+    margin: 0 auto;
+} */
+
+/* ESTILOS HEADER  */
+header {
+    background-image: url("../img/cesped.jpg");
+    background-position: center;
+    background-repeat: repeat;
+	background-size: cover;
+    background-color: #000000;
+    padding: 1em 0;
+}
+
+header h1 {
+    color: rgb(90, 44, 1);
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: 2.5em;
+    font-style: bold;
+    font-weight: 100;
+    
+}
+
+/* ESTILOS NAVBAR  */
+
+nav {
+    background-color: #3a2206;
+    margin-bottom: 2em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 13.3%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+    display: block;
+    padding: 0.5em 0.4em;
+}
+
+nav ul li a.activo {
+    background-color: #004191;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+/* ESTILOS MAIN  */
+
+.homeImg {
+    margin-bottom: 1.5em;
+}
+
+.homeImg img {
+    width: 100%;
+    height: 300px;
+    background-position:center;
+	
+	background-repeat: no-repeat;
+	background-size:auto
+}
+
+.columnas {
+    overflow: hidden;
+}
+
+.bienvenidos, .testimonios {
+    box-sizing: border-box;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 2em;
+}
+
+.testimonios {
+    width: 25%;
+}
+
+.testimonio {
+    background-color: #ccc;
+    padding: 1em;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+    display: block;
+}
+.testimonio .autor {
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+}
+
+h2 {
+    color: #085c05;
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+
+/* ESTILOS FOOTER  */
+
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+    
+}
+
+/*Estilo imagenes incrustacion pagina*/
+
+.imagenesIncrustadas{
+    
+    background-position: center;
+    background-repeat: repeat;
+	background-size: cover;
+    background-color: #ffffff;
+}
+
+

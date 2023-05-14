@@ -1,0 +1,132 @@
+<!-- Código Fuente - Gonzalo Martin Dantino. Programacion Web Inicial | BA Multiplica 2.0 año 2023. -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ESTILOS BOOTSTRAP -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/estilosTextos.css">
+
+    <!-- Logo de la pagina -->
+    <link rel="icon" href="./img/logo.jpg" type="image/gif" />
+
+    <!-- ESTILOS CSS PROPIOS -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <script>(function(w, d) { w.CollectId = "63290181ffa35460773fb6aa"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);
+    </script>
+
+    <link rel="stylesheet" href="css/estiloCarrusel.css">
+    <!-- Título de la pestaña del navegador -->
+    <title>Mates Cancheros Web</title>
+    
+</head>
+
+<!--Comienzo body-->
+<body>
+    <header class="container-fluid">
+        <div class="homeImg">
+            <h1>Mates Cancheros</h1>
+            <div class="header">
+        </div>
+    </header>
+
+    <!--Menu-->
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/historia.html">Historia</a></li>
+            <li><a href="../pages/catalogo.html">Catalogo</a></li>
+            <li><a href="./pages/personalizarlo.html">Personalizar</a></li>
+            <li><a href="./pages/preguntas_frecuentes.html">Preguntas</a></li>
+            <li><a href="./pages/contactanos.html">Contactanos</a></li>
+        </ul>
+    </nav>
+
+    <!--Contenido y cuerpo-->
+    <main class="container">
+        <div class="columnas">
+            <div class="bienvenidos left">
+                <h2>Tenemos distintos productos diseñados para vos!</h2>
+                    <div class="carrusel">
+                        <ul class="carrusel-fotos">
+                            <li id="foto1"><a href= ""></a><img src="img/setargento.jpg" alt=""></li>
+                            <li id="foto2"><img src="img/setboca.jpg" alt=""></li>
+                            <li id="foto3"><img src="img/setriver.png" alt=""></li>
+                        </ul>
+                        <ul class="carrusel-menu">
+                            <li><a href="#foto1"><img src="img/setargento.jpg" alt=""></a></li>
+                            <li><a href="#foto2"><img src="img/setboca.jpg" alt=""></a></li>
+                            <li><a href="#foto3"><img src="img/setriver.png" alt=""></a></li>
+                        </ul>
+                    </div>                 
+                    <br>
+                    <br>
+                    <div class="testimonios left">
+                        <h3>Yerberos</h3>
+                        Yerberas con estilo, adaptadas a tus necesidades.<br><br>
+                        <center><img src="img/Yerbera.png" height="200" width="150"></center>
+                    </div>
+                    <div class="testimonios right">
+                        <h3>Termos</h3>
+                        Termos nacionales e importados. Elegí el tuyo.<br><br>
+                        <center><img src="img/termoss.jpg" height="200" width="150"></center>                        
+                    </div>
+            </div>
+            <!-- Opiniones right-->
+            <div class="testimonios right">
+                <h2>Opiniones</h2>
+                    <div class="testimonio">
+                        <span class="cita">Excelente calidad</span>
+                        <span class="autor">Juan Perez - hincha de Platense</span>
+                        <span class="cita">Me encantó!</span>
+                        <span class="autor">Marta Carolina - fanática de los mates con hierbas</span>
+                        <span class="cita">Aguante Mates Cancheros</span>
+                        <span class="autor">Raul Sosa - viajero empedernido</span>
+                    </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="testimonios">
+            <h3>Mates</h3>
+            Mates de madera, calabaza, plástico y mucho más.<br><br>
+            <center><img src="img/mate.png" height="200" width="200"></center>
+        </div>
+        <br>
+        <br>
+        Encontrá éste y otros productos más ingresando al apartado <a href="./pages/catalogo.html">Catálogo</a>.
+        <br>
+        <br>
+        <br>
+        <h2>¿Preguntas?</h2>
+        Envía un correo electrónico a info@matescancheros.com para obtener más información sobre las promociones y opciones de pago. Tambien, podes consultarle a Matienzo, tu asistente virtual disponible las 24 hs. Podemos ponernos en contacto con vos si llenas el formulario de contacto desde el apartado <a href="./pages/contactanos.html">Contactanos</a>.
+        <br>
+        <br>
+        <h2>¿Cómo preparar un buen mate?</h2>
+        Te dejamos un video explicativo con todos los tips para disfrutar tu set con el mejor sabor!
+        <br>
+        <br>
+        <div class="centrarElementos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vwrmTSMmcaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </main>
+    
+    <!--Pie de página-->
+    <footer>
+        <p>Diseñado por Gonzalo Martin Dantino - año 2023. Proyecto BA Multiplica 2.0 Programacion Web inicial.</p>
+    </footer>
+</body>
+</html>
