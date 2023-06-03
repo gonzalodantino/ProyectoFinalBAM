@@ -4,6 +4,15 @@
 El proposito del desarrollo de esta pagina es aplicar los conocimientos adquiridos en el curso de BAMultiplica 2.0 sobre Programacion Web Inicial Front End.
 En la cual se aplican codigos HTML y plantillas CSS para poder dar formato al sitio en cuestion.
 
+---
+<b>Enlaces</b><br>
+Link repositorio GitHub: <b>https://github.com/gonzalodantino/ProyectoFinalBAM.git </b><br>
+Link deploy: <b>https://gonzalodantino.github.io/ProyectoFinalBAM/ </b>
+
+----
+
+
+
 ![Mates Cancheros](https://github.com/gonzalodantino/ProyectoFinalBAM/assets/112992906/ae87d02e-8535-48fa-9c5d-fafc73c9536a)
 
 El proyecto de Mates Cancheros es en principio la necesidad de un cliente que en forma ficticia, me solicita la creacion de una Web en la cual pueda publicar sus productos y comercializarlos. En este caso, no se cuenta con una base de datos conectada como asi tambien una plataforma para ejecutar pagos/cobros. Pero siendo en principio un modelo de cómo podría empezar a desarrollarse esta pagina para el cliente.
